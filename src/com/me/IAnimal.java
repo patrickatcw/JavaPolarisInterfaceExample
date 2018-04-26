@@ -2,9 +2,9 @@ package com.me;
 
 public interface IAnimal {
 
-    String Name ();
-    String NameOfAnimal();
-    String SoundAnimalMakes();
-
+    String name();
+    String getNameOfAnimal();
+    Void setNameOfAnimal(String nameOfAnimal);
+    String soundAnimalMakes();
 
 }
