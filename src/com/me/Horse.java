@@ -2,23 +2,32 @@ package com.me;
 
 public class Horse implements IAnimal {
 
+    private String name;
+    private String soundAnimalMakes;
+
+
+    public Horse(String name, String soundAnimalMakes) {
+        this.name = name;
+        this.soundAnimalMakes = soundAnimalMakes;
+    }
+
     @Override
     public String name() {
-        return null;
+        return name;
     }
 
     @Override
     public String getNameOfAnimal() {
-        return null;
+        return toString();
     }
 
     @Override
-    public Void setNameOfAnimal(String nameOfAnimal) {
-        return null;
+    public String setNameOfAnimal(String nameOfAnimal) {
+        return toString();
     }
 
     @Override
     public String soundAnimalMakes() {
-        return null;
+        return soundAnimalMakes;
     }
 }
