@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Dog dog = new Dog("Rover", "bark");
+        Dog dog = new Dog("Jax", "bark");
         dog.name();
         dog.soundAnimalMakes();
         System.out.println(dog.name());
