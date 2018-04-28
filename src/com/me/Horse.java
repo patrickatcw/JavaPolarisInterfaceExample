@@ -16,7 +16,7 @@ public class Horse implements IAnimal {
         return name;
     }
 
-    @Override
+    /*@Override
     public String getNameOfAnimal() {
         return toString();
     }
@@ -24,7 +24,7 @@ public class Horse implements IAnimal {
     @Override
     public String setNameOfAnimal(String nameOfAnimal) {
         return toString();
-    }
+    }*/
 
     @Override
     public String soundAnimalMakes() {

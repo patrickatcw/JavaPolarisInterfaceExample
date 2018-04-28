@@ -11,12 +11,13 @@ public class Dog implements IAnimal{
         
     }
 
+
     @Override
     public String name() {
         return name;
     }
 
-    @Override
+   /* @Override
     public String getNameOfAnimal() {
         return toString();
     }
@@ -24,7 +25,7 @@ public class Dog implements IAnimal{
     @Override
     public String setNameOfAnimal(String nameOfAnimal) {
         return null;
-    }
+    }*/
 
     @Override
     public String soundAnimalMakes() {
